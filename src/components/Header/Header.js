@@ -10,9 +10,9 @@ function Header() {
     return (
 
         <header>
-            <div className="container">
+            <div className="content">
 
-                <Link to="/" >
+                <Link to="/">
                     <img src={Back} style={{width: '50px'}} />
                 </Link>
 
