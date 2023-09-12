@@ -4,6 +4,8 @@ import Header from '../../components/Header/Header';
 
 import { useForm } from 'react-hook-form';
 
+import "./post.css"
+
 function Post() {
     const { register, handleSubmit, formState: { erros } } = useForm()
 
