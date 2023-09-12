@@ -6,6 +6,7 @@ function Post() {
     return(
         <div>
             <Header />
+            <h1>Page Post</h1>
         </div>
     )
 }
