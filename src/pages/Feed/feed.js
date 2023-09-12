@@ -2,6 +2,8 @@ import React from 'react';
 
 import HeaderMain from '../../components/HeaderMain/HeaderMain';
 
+import './feed.css'
+
 import More from '../../images/more.svg';
 
 function Feed() {
