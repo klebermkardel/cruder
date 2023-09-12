@@ -12,7 +12,7 @@ function HeaderMain() {
                     <h1>CRUder</h1>
                 </div>
                 <div className="btn-newPost">
-                    <Link to="/Post/post">
+                    <Link to="/post">
                         <button>Novo Post</button>
                     </Link>
                 </div>
