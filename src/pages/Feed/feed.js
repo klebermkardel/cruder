@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import HeaderMain from '../../components/HeaderMain/HeaderMain';
 
 import './feed.css'
@@ -19,6 +21,21 @@ function Feed() {
                         </header>
                         <div className="line"></div>
                         <p>Nesse curso eu ensino vcs a consumirem uma api, com react.js, uma api feita em node js e mongoDB</p>
+                        <div className="btns">
+                            <div className="btn-edit">
+                                <Link to="/edit">
+                                    <button>Editar</button>
+                                </Link>
+                            </div>
+                            <div className="btn-readmore">
+                                <Link to="/lermais">
+                                    <button>Ler Mais</button>
+                                </Link>
+                            </div>
+                            <div className="btn-delete">
+                                <button>Excluir</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
