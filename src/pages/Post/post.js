@@ -10,7 +10,7 @@ import './post.css'
 
 const validationPost = yup.object().shape({
     title: yup.string().required("O título é obrigatório").max(40, "O título precisa ter menosde 40 caracteres"),
-    description: yup.string().required("A descrição é obrigatório").max(150, "A descrição precisa ter menos de 150 caracteres"),
+    description: yup.string().required("A descrição é obrigatória").max(150, "A descrição precisa ter menos de 150 caracteres"),
     content: yup.string().required("O conteúdo é obrigatório").max(500, "O conteúdo precisa ter menos de 500 caracteres")
 })
 

@@ -88,5 +88,8 @@ textarea {
     border-radius: 10px;
 
     cursor: pointer;
+}
 
+.error-message {
+    color: rgb(240, 47, 47);
 }
