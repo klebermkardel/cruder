@@ -21,15 +21,15 @@ function Post() {
                         <form>
                             <div className="fields">
                                 <label>Título:</label>
-                                <input type="text" />
+                                <input type="text" name="title" {...register("title")} />
                             </div>
                             <div className="fields">
                                 <label>Descrição:</label>
-                                <input type="text" />
+                                <input type="text" name="description" {...register("description")} />
                             </div>
                             <div className="fields">
                                 <label>Conteúdo:</label>
-                                <textarea type="text"></textarea>
+                                <textarea type="text" name="content" {...register("content")}></textarea>
                             </div>
                             <div className="btn-post">
                                 <button type="submit">Enviar</button>
