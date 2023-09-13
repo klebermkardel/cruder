@@ -9,6 +9,8 @@ import "./post.css"
 function Post() {
     const { register, handleSubmit, formState: { erros } } = useForm()
 
+    const onSubmit = data => console.log(data)
+
     return(
         <div>
             <Header />
@@ -18,7 +20,7 @@ function Post() {
                     <h1>Criar postagem</h1>
                     <div className="line-post"></div>
                     <div className="card-body-post">
-                        <form>
+                        <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="fields">
                                 <label>Título:</label>
                                 <input type="text" name="title" {...register("title")} />
